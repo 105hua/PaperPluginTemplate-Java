@@ -13,8 +13,9 @@ Please follow these steps to fully prepare the template for your own use:
 there, you can follow the instructions to create a new repository based on this template.
 - Clone your new repository to your local machine and open it in your preferred IDE. For
 the sake of simplicity, this tutorial will assume you are using IntelliJ IDEA.
-- Open the `build.gradle` file and change the `group` variable to your own package name. You
-may also change the `version` variable to your own version number, if you wish.
+- Open the `build.gradle` file and change the `group` variable to your own package name. In addition to
+this, change the license header in the `spotless` block to the license you intend to use. You may also change
+`version` at this point, if you wish.
 - Open the `src` folder and navigate to `main`, `java`, and select the
 - `joshdev.paperPluginTemplateJava` package. Rename this package to your own package name. This
 should also rename the main class file, so you don't need to worry about that.
